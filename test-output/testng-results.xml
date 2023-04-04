@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[create_cust-------->Testscript execution started]]>
+    </line>
+    <line>
+      <![CDATA[create_cust--------->testscript execution is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21781" started-at="2023-03-31T13:11:36 IST" finished-at="2023-03-31T13:11:58 IST">
+    <groups>
+      <group name="regression">
+        <method signature="create_customer_test.create_cust()[pri:1, instance:allPomScript.create_customer_test@491cc5c9]" name="create_cust" class="allPomScript.create_customer_test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="create_customer_test.create_cust()[pri:1, instance:allPomScript.create_customer_test@491cc5c9]" name="create_cust" class="allPomScript.create_customer_test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="21781" started-at="2023-03-31T13:11:36 IST" finished-at="2023-03-31T13:11:58 IST">
+      <class name="allPomScript.create_customer_test">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="configBS" is-config="true" duration-ms="11" started-at="2023-03-31T13:11:36 IST" finished-at="2023-03-31T13:11:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="configBC" is-config="true" duration-ms="4099" started-at="2023-03-31T13:11:37 IST" finished-at="2023-03-31T13:11:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="configBM" is-config="true" duration-ms="2883" started-at="2023-03-31T13:11:41 IST" finished-at="2023-03-31T13:11:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="create_cust()[pri:1, instance:allPomScript.create_customer_test@491cc5c9]" name="create_cust" duration-ms="8730" started-at="2023-03-31T13:11:44 IST" finished-at="2023-03-31T13:11:53 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[create_cust-------->Testscript execution started]]>
+            </line>
+            <line>
+              <![CDATA[create_cust--------->testscript execution is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create_cust -->
+        <test-method status="PASS" signature="ConfigAM()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="ConfigAM" is-config="true" duration-ms="2486" started-at="2023-03-31T13:11:53 IST" finished-at="2023-03-31T13:11:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="configAC" is-config="true" duration-ms="3171" started-at="2023-03-31T13:11:55 IST" finished-at="2023-03-31T13:11:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:allPomScript.create_customer_test@491cc5c9]" name="configAS" is-config="true" duration-ms="0" started-at="2023-03-31T13:12:00 IST" finished-at="2023-03-31T13:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- allPomScript.create_customer_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

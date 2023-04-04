@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Test-runner1">
+    <classes>
+      <class name="com.saip_practiec.TS_04"/>
+      <class name="com.saip_practiec.TS_03"/>
+      </classes>
+   </test>
+     <test thread-count="5" parallel="tests" name="Test-runner2">  
+      <classes>
+      
+      <class name="com.saip_practiec.TS_02"/>
+      <class name="com.saip_practiec.TS_01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

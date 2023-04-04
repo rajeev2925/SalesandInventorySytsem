@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="allPomScript.Add_sup_add_prod_verify_Test">
+        <methods>
+          <include name="addSupAddPodAndVerify"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="ConfigAM"/>
+        </methods>
+      </class> <!-- allPomScript.Add_sup_add_prod_verify_Test -->
+      <class name="allPomScript.create_customer_test">
+        <methods>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="create_cust"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="ConfigAM"/>
+        </methods>
+      </class> <!-- allPomScript.create_customer_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
